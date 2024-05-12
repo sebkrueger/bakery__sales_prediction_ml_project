@@ -2,7 +2,7 @@
 
 ## Repository Link
 
-https://github.com/your_username/your_project_name
+https://github.com/sebkrueger/bakery_sales_prediction_ml_project
 
 ## Description
 
