@@ -23,12 +23,23 @@ This stage do the following:
 - Add more data from external source out of CSV files in folder "bakery_sales_data"
 - Export Full dataframe into folder "exported_data" 
 
-### 3. Stage - Splitt the dataset
+### 3. Stage - Split the dataset
+
+Script "SplitDataset.ipynb" for this stage is located in folder "0_DataPreparation"
 
 This stage do the following:
-- splitt the data by dateranges into three sets
+- splits the datasets into three sets
+- remove "Umsatz" and "Warengruppe" from test_set to allow later merge with test.csv data and prediction values
 - merge the test.csv content to test set to get dates and Warengruppe for needed later kaggle submission
 
-### 4. Stage - Create and optimize the Model 
+### 4. Stage - Create and optimize the Model
 
-### 5. Stage - Fill test dataset with predictiondata of created model 
+Baseline model is calculated in file "BaselineModel.ipynb" in folder "2_Baselinemodel" and uses to create a first running prediction by using linear regression and see what features might have impact to prediction and what features not. 
+
+### 5. Stage validation of the model
+
+Check how the model will behave under validation data it has not used to train the model.
+
+### 6. Stage - Fill test dataset with predictiondata of created model 
+
+Use the Model, created in Stage 4. and reduce dataset only to needed prediction values and remove all columns except "id" and "Umsatz" to make a upload to kaggle possible. 
