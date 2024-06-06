@@ -1,26 +1,26 @@
 # Data Preparation
 
-
 ## Ideas potential good input and for additional data
 
 ### Possible out of provided datasets
-- Kiwo ++ LS
-- Temperaturen ++ AM
-- Regentage ++ AM
+- Kiwo
+- Temperaturen
+- Regentage
 
 ### Generic calculations
-- Wochenende vs. Wochentage ++ LS
-- Jahreszeit (Sommer/ Winter) ++ AM 
+- Wochenende vs. Wochentage
+- Jahreszeit (Sommer/ Winter)
+- vorherige Verkaufszahlen nutzen, um aus Daten Trends zu erkennen
 
 ### Additional sources needed
-- Kreuzfahrtschiffe +
-- Verkaufsoffene Sonntage ++
-- Ferienzeit / Semesterferien ++ LS
-- vorherige Verkaufszahlen nutzen, um aus Daten Trends zu erkennen ++ MS
-- Preissteigerungen im Verkaufszeitraum ++ AN
-- relevante Streiks ++ 
-- Tage an denen Wahlen stattgefunden haben ++ LS
-- Feier- und Brückentage ++ LS
+- Kreuzfahrtschiffe
+- Verkaufsoffene Sonntage
+- Ferienzeit / Semesterferien
+
+- Preissteigerungen im Verkaufszeitraum
+- relevante Streiks
+- Tage an denen Wahlen stattgefunden haben
+- Feier- und Brückentage
 
 ## Planed division of the datasets
 
