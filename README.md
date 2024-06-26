@@ -14,15 +14,15 @@ Regression
 
 ### Results Summary
 
--   **Best Model:** [Name of the best-performing model]
+-   **Best Model:** ml_learning_model_v3
 -   **Evaluation Metric:** MAPE
 -   **Result by Category** (Identifier):
-    -   **Bread** (1): [XX]%
-    -   **Rolls** (2): [XX]%
-    -   **Croissant** (3): [XX]%
-    -   **Confectionery** (4): [XX]%
-    -   **Cake** (5): [XX]%
-    -   **Seasonal Bread** (6): [XX]%
+    -   **Bread** (1): 22,9%
+    -   **Rolls** (2): 20,8%
+    -   **Croissant** (3): 29,9%
+    -   **Confectionery** (4): 26,6%
+    -   **Cake** (5): 17,9%
+    -   **Seasonal Bread** (6): 69,2%
 
 ## Documentation
 
